@@ -1,4 +1,4 @@
-$gutter : 5%;
+$gutter : 2%;
 
 *,
 *:after,
@@ -16,7 +16,6 @@ $gutter : 5%;
   float: left;
   overflow:hidden;
   padding: 20px;
-  margin-right: $gutter;
 }
 [class*='col']:last-child {
   margin-right: 0;
@@ -49,43 +48,45 @@ background-color: red;
 section>.full-container{
 margin: 0 auto;
 width:100%;
-padding: 0 5%;
+padding: 0 0;
 background-color: red;
 }
 
 .col-half{
-	width:49%;
+	width:50%;
 	background-color: black;
 }
 
 .offset-half{
-	margin-left: 51%;
+	margin-left: 50%;
 }
 
 .col-third{
-	width:32%;
+	width:33.33333%;
 	background-color: blue;
 }
 
 .offset-third{
-	margin-left:34%;
+	margin-left:33.333%;
 }
 
 .offset-two-third{
-	margin-left: 68%;
+	margin-left: 66.666%;
 }
 
 .col-quarter{
-	width:23.5%;
+	width:25%;
 	background-color: green;
 }
 
 .offset-quarter {
-	margin-left:25.5%;
+	
+	margin-left:25% !important;
+	
 }
 
 .offset-two-quarter {
-	margin-left:50.99%;
+	margin-left:50%;
 }
 
 .col-quarter + .col-half{
