@@ -106,6 +106,8 @@ background-color: red;
 	.col-third {
     width: 100%;
   }
+
+  .offset-half,
   .offset-third,
   .offset-two-third,
   .offset-quarter,
