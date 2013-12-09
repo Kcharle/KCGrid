@@ -1,4 +1,4 @@
-$gutter : 20px;
+$gutter : 3%;
 
 *,
 *:after,
@@ -15,8 +15,8 @@ $gutter : 20px;
 [class*='col'] {
   float: left;
   overflow:hidden;
-  padding: $gutter;
-  margin-right:2%;
+  padding: 20px;
+  margin-right: $gutter;
 }
 [class*='col']:last-child {
   margin-right: 0;
