@@ -139,8 +139,8 @@ background-color:$containerBgColor;
 	    width: 100%;
 	  }
 
-	[class*='col'] {
-		margin-left:0%;
+	[class*='offset'] {
+		margin-left:0% !important;
 	  }
 
 }

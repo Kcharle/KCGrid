@@ -108,8 +108,8 @@ section > .full-container {
   [class*='col'] {
     width: 100%; }
 
-  [class*='col'] {
-    margin-left: 0%; } }
+  [class*='offset'] {
+    margin-left: 0% !important; } }
 /* Mobile to Tablet Portrait
 ===============================*/
 /* Landscape Tablet to Desktop
