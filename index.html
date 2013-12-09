@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style/normalize.css">
-	<link rel="stylesheet" href="style/kcgrid.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/kcgrid.css">
 	<title>KC-Grid</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 		<h4>This is a fully responsive very simple grid framework designed by <a href="http://www.charliebois.com">Kyle Charlebois</a></h4>
 		<br>
 		<br>
-		<h5> Features 
+		<h5> Featuresssss
 			<ul>
 				<li> - Full Responsive</li>
 				<li> - Only 2kb without minimilization!</li>
@@ -24,6 +24,7 @@
 		<br>
 		<h5> Coming Soon 
 			<ul>
+				<li> - SASS Editable File For Clean Simple Edits</li>
 				<li> - Customizable fixed width size.</li>
 				<li> - More to come..</li>
 			</ul>
@@ -34,37 +35,52 @@
 	
 		<section>
 		<div class="full-container">
+
 			<h1>Full Width Container For Full Page Layouts</h1>
 			<div class="row">
-				<div class="col-half"><p>Half Column</p></div>
-				<div class="col-third " ><p>Third Column</p></div>
+				<div class="col-full"><p>Full Column</p></div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-half"><p>Half Column</p></div>
-				<div class="col-half"><p>Half Column</p></div>
+				<div class="col-half">1/2 Column</div>
+				<div class="col-half">1/2 Column</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-third"><p>Third Column</p></div>
-				<div class="col-third"><p>Third Column</p></div>
-				<div class="col-third"><p>Third Column</p></div>
+				<div class="col-half offset-half">1/2 Column Offset 1/2</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-third offset-third"><p>Third Column Offset Third</p></div>
-				
+				<div class="col-third-1-3">1/3 Column</div>
+				<div class="col-third-1-3">1/3 Column</div>
+				<div class="col-third-1-3">1/3 Column</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-quarter"><p>Quarter Column</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
+				<div class="col-third-1-3 offset-1-3">1/3 Column Offset 1/3</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-quarter offset-quarter"><p>Quarter Column Offset Quarter</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
+				<div class="col-third-1-3 offset-2-3">1/3 Column Offset 1/3</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-quarter offset-two-quarter"><p>Quarter Offset Two Quarter</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
+				<div class="col-quarter-1-4">1/4 Column</div>
+				<div class="col-quarter-1-4">1/4 Column</div>
+				<div class="col-quarter-1-4">1/4 Column</div>
+				<div class="col-quarter-1-4">1/4 Column</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-quarter-1-4 offset-1-4">1/4 Column Offset 1/4</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-quarter-1-4 offset-2-4">1/4 Column Offset 2/4</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-quarter-1-4 offset-3-4">1/4 Column Offset 3/4</div>
 			</div>
 		</div>
 	</section>
@@ -75,38 +91,54 @@
 
 	<section>
 		<div class="fixed-container">
+			
+		<h1>Fixed Width Container - For 960px Grid Layouts</h1>
 			<div class="row">
-				<h1>Fixed Width Container - For 960px Grid Layouts</h1>
-				<div class="col-half"><p>Half Column</p></div>
-				<div class="col-third"><p>Third Column</p></div>
+				<div class="col-full"><p>Full Column</p></div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-half"><p>Half Column</p></div>
-				<div class="col-half"><p>Half Column</p></div>
+				<div class="col-half">1/2 Column</div>
+				<div class="col-half">1/2 Column</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-third"><p>Third Column</p></div>
-				<div class="col-third"><p>Third Column</p></div>
-				<div class="col-third"><p>Third Column</p></div>
+				<div class="col-half offset-half">1/2 Column Offset 1/2</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-third offset-third"><p>Third Column Offset Third</p></div>
-				
+				<div class="col-third-1-3">1/3 Column</div>
+				<div class="col-third-1-3">1/3 Column</div>
+				<div class="col-third-1-3">1/3 Column</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-quarter"><p>Quarter Column</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
+				<div class="col-third-1-3 offset-1-3">1/3 Column Offset 1/3</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-quarter offset-quarter"><p>Quarter Column Offset Quarter</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
+				<div class="col-third-1-3 offset-2-3">1/3 Column Offset 1/3</div>
 			</div>
+			<br>
 			<div class="row">
-				<div class="col-quarter offset-two-quarter"><p>Quarter Offset Two Quarter</p></div>
-				<div class="col-quarter"><p>Quarter Column</p></div>
+				<div class="col-quarter-1-4">1/4 Column</div>
+				<div class="col-quarter-1-4">1/4 Column</div>
+				<div class="col-quarter-1-4">1/4 Column</div>
+				<div class="col-quarter-1-4">1/4 Column</div>
 			</div>
+			<br>
+			<div class="row">
+				<div class="col-quarter-1-4 offset-1-4">1/4 Column Offset 1/4</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-quarter-1-4 offset-2-4">1/4 Column Offset 2/4</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-quarter-1-4 offset-3-4">1/4 Column Offset 3/4</div>
+			</div>
+			
 		</div>
 	</section>
 </body>
